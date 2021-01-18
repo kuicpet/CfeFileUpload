@@ -31,6 +31,24 @@ body {
     color: white;
     width: 100%;
     min-height: 100vh;
-    background-color: black;
+    background-color: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45.34deg, #00072D 5.66%, #0A2472 50.01%, #000000 94.35%);
+  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45.34deg, #00072D 5.66%, #0A2472 50.01%, #000000 94.35%);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 </style>
