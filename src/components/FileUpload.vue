@@ -80,7 +80,7 @@ export default {
         color: black;
         background-color: white;
         transition: all 1s ease-in-out;
-        translate: scale(1.);
+        translate: scale(1.1);
     }
     .img_container {
         padding: 1rem;
